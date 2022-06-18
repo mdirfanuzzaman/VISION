@@ -156,8 +156,15 @@ footer .left_col {
 .left_col p span {
   font-size: 14px;
   font-weight: 600;
-  margin-right: 15px;
+  margin-right: 10px;
   line-height: 22px;
+}
+
+.left_col p .contact_details {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-right: 15px;
 }
 
 .right_col .policy {
