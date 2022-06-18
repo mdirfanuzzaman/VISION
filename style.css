@@ -120,3 +120,36 @@ nav .nav_links {
   text-decoration: none;
   color: #fff;
 }
+/* Footer Section */
+
+footer {
+  padding: 25px 20%;
+  background: #090808;
+  margin-top: 200px;
+  color: #fff;
+  display: flex;
+}
+
+footer h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 15px 0;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+footer .left_col {
+  flex: 1;
+}
+
+.left_col p span {
+  font-size: 14;
+  font-weight: 600;
+  margin-right: 15px;
+  line-height: 22px;
+}
