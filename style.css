@@ -142,14 +142,47 @@ footer p {
   font-weight: 300;
   line-height: 25px;
 }
+/* footer h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-right: 15px;
+} */
 
 footer .left_col {
   flex: 1;
 }
 
 .left_col p span {
-  font-size: 14;
+  font-size: 14px;
   font-weight: 600;
   margin-right: 15px;
   line-height: 22px;
+}
+
+.right_col .policy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_col .policy ul li {
+  list-style: none;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.right_col .policy ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.right_col .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.right_col .social i {
+  padding: 0 15px;
 }
